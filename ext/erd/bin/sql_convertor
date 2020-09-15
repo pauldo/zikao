@@ -1,0 +1,103 @@
+#!/usr/bin/env php
+<?php
+
+if (!isset($argv[1])) {
+    echo "请输入sql文件所在相对路径";exit(1);
+}
+
+$source_file = $argv[1];
+$source_contents = $target_contents = $target_file = '';
+
+if (file_exists($source_file)) {
+    $source_contents = file_get_contents($source_file);
+}
+
+if (!$source_contents) {
+    echo "请检查文件是否正确";exit(2);
+}
+
+$target_file = str_replace(".sql", ".puml", $source_file);
+
+// 相对路径
+$define_file = str_repeat('../', substr_count($source_file, '/')) . 'ext/erd/define.iuml';
+
+$sql_statements = explode(";", $source_contents);
+
+foreach ($sql_statements as $statement) {
+    $statement = strtolower(trim($statement));
+    // 过滤非建表语句
+    if (0 !== strpos($statement, "create table")) {
+        continue;
+    }
+    $target_contents .= convert_uml($statement) . "\n\n";
+}
+
+$ruml_file = str_replace(".sql", ".ruml", $source_file);
+if (file_exists($ruml_file)) {
+	$target_contents .= file_get_contents($ruml_file);
+}
+
+$target_contents = <<<EOF
+@startuml
+!include $define_file
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+' Entities
+'
+' Relationships
+' one-to-one relationship
+'     user -- user_profile : "A user only has one profile"
+' one to may relationship
+'     user --> session : "A user may have many sessions"
+' many to many relationship
+' Add mark if you like
+'     user "1" --> "*" user_group : "A user may be in many groups"
+'     group "1" --> "0..N" user_group : "A group may contain many users"
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+$target_contents
+
+@enduml
+EOF;
+
+
+@file_put_contents($target_file, $target_contents);
+echo "写入成功：$target_file\n";
+
+function convert_uml($create_table_syntax) {
+	preg_match('/create table ([^\s]*)[^\(]*\((.*)[^\)]*comment[ =]([^\s]*)(.*)/s', $create_table_syntax, $match);
+	$table_name = trim($match[1], '`');
+	$table_remark = trim($match[3], ' `\',') ?? "";
+	$columns = explode(",\n", $match[2]);
+	$add_tab = "    ";
+	$sp = "\n";
+	$uml_columns = "";
+	foreach ($columns as $column) {
+		$column = trim($column);
+		$words = explode(" ", $column);
+		$field = trim($words[0], ' `') ?? '';
+		if (!$field || in_array($field, ["id", "created_at", "updated_at", "is_delete", "primary", "key", ")"])) {
+			continue;
+		}
+		if ("deleted_at" == $field) {
+			$uml_columns .= "${add_tab}DELETE_TIMESTAMP${sp}";
+			continue;
+		}
+		$type = @explode('(', $words[1])[0] ?? '';
+		$notnull = strpos($column, 'not null') ? 1 : 0;
+		$tmp_arr = explode('\'', $column);
+		$field_remark = strpos($column, "comment") !== false ? $tmp_arr[count($tmp_arr) - 2] : '';
+		$uml_columns .= "${add_tab}Column('$field', '$type', $notnull, '', '$field_remark')${sp}";
+	}
+	$uml_columns = trim($uml_columns);
+//	print_r($uml_columns);
+//	var_dump($create_table_syntax, $match, $table_name, $table_remark, $uml_columns);exit;
+	return <<<EOF
+Table($table_name, '$table_remark') {
+    PRIMARY_KEY
+    $uml_columns
+    TIMESTAMPS
+}
+EOF;
+}
+
