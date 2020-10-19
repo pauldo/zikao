@@ -17,6 +17,14 @@ ea<b>t</b> -> -e<b>s</b>-/-e<b>d</b>- -> obe<b>s</b>e/e<b>d</b>ible
 ***** grad<b>u</b>ate / stim<b>ul</b>ate
 **** 开头a + 两个辅音字母(x) = axx (abb-/acc-/add-/aff-/agg-) 最后一个x代表词根开始
 *** 前缀(50+-)
+****[#lightblue]:sub-
+sup-
+suc-
+sus-;
+***** 下、向下 eg. subway
+***** 从下往上 eg. submit 呈递；提交
+***** 亚于、次于 eg. suburban
+***** 后、后面 eg. subsequent
 ****[#lightblue] re-
 ***** 相反 eg. resent
 ***** 返回 eg. return
@@ -24,7 +32,7 @@ ea<b>t</b> -> -e<b>s</b>-/-e<b>d</b>- -> obe<b>s</b>e/e<b>d</b>ible
 **** pro-
 ***** (=forward) (动态含义)向前
 **** pre-
-***** (静态)前面、提前
+***** (静态) 前面、提前
 **** ac-
 ***** (=to) 去
 ****:a-
@@ -36,6 +44,74 @@ ex-
 es-;
 ***** 向外
 ***** 超出
+**** ne-
+***** (=no) 否定
+****:com-
+con-
+col-
+cor-
+co-;
+***** (=with/together) 共同、一起、全部
+***** (intensive) 加强语气
+**** abc-
+***** (=away) 走开、远离
+**** inter-
+***** 在...之间
+**** se-
+***** (=apart) 分开、分离
+****:di-
+dis-;
+***** 分开
+**** trans-
+***** 转、穿、传
+
+
+
+*** 后缀
+****[#lightblue]:-or
+-ar
+-er
+-ur;
+***** n. 人、物、机器
+***** adj.
+***** v. (较少出现)
+****[#lightblue] -ory
+***** n.
+**** -ing
+***** n.
+****:-ate
+-ite
+-ute;
+***** v. (使动词)
+******_ ate / ute 常出现 eg. necessitate
+***** adj.
+******_ ite 常出现
+***** n. (极少出现) 人、物
+******_ ute 常出现
+**** -ive
+***** adj. 大、多 (大多情况)；xxx的
+******_ 大、多 eg. product-ive 多产的 expense-ive 昂贵的
+***** v.
+***** n. 人 (大多情况)、物
+****:-ent
+-ant;
+***** n. 人、物
+***** adj. xxx的
+****:-ance
+-ence
+-ancy
+-ency;
+***** n. 无含义
+****:-ity
+-lity
+-ility;
+***** n.
+**** -ion
+***** n.
+**** -ate
+***** v. ??
+
+
 
 *** 词根
 ****[#lightblue]:-cess-、-ceed-、-cede-、-gress-、
@@ -103,7 +179,7 @@ n.诉讼、议程、一系列活动事件
 legal proceedings 法律诉讼
 ;
 ***** procedure (1376)
-******:
+******_:
 n.程序、步骤
 pro- 向前 -ced- 走 -ure 名词后缀
 surgical procedures 手术程序
@@ -185,40 +261,197 @@ exceedingly polite forms：极度有礼貌的形式
 vt/vi/n.停止；终了
 ceas (=-cess-)走
 ;
-*** 后缀
-****[#lightblue]:-or
--ar
--er
--ur;
-***** n. 人、物、机器
-***** adj.
-***** v. (较少出现)
-****[#lightblue] -ory
-***** n.
-**** -ing
-***** n.
-****:-ate
--ite
--ute;
-***** v. (使动词)
-***** adj.
-***** n. (极少出现) 人、物
-**** -ive
-***** adj. 大、多；xxx的
-***** v.
-***** n. 人、物
-****:-ent
--ant;
-***** n. 人、物
-***** adj. xxx的
-****:-ance
--ence
--ancy
--ency;
-***** n. 无含义
+***** succeed (2035)
+******_:
+vi.成功；继承；继任；兴旺
+suc- 下；后 -ceed- 走
+succeed in (doing) sth.
+;
+***** succeeding (15434)
+******_:
+adj.随后的，以后的
+;
+***** success (778)
+******_:
+n.成功，成就；胜利；大获成功的人或事物
+;
+***** succeesful (1105)
+******_:
+adj.成功的；一帆风顺的
+;
+***** succeesfully (3205)
+******_:
+adv.成功地
+;
+*****[#lightblue] successor (5502)
+******_:
+n.继承者；后续的事物
+success 继承、接任 -or 名词后缀
+;
+*****[#lightblue] succession (6484)
+******_:
+n.连续；继位；继承；（农业）轮栽
+a ~ of sth. 一连串(一系列)的xxx
+;
+***** successive (8209)
+******_:
+adj.连续的；继承的；依次的；接替的
+success 继承、连续 -ive 名词后缀
+;
+***** predecessor (5325)
+******_:
+n.前任；前辈
+pre- 前 -decess- (=retire) 退休 -or 名词：人
+;
+***** necessary (985)
+******_:
+adj.必要的；必然的；必需的
+;
+***** necessarily (1971)
+******_:
+adv.必定地；必要地；必然地
+;
+***** necessity (3986)
+******_:
+n.需要；必需品；必然性
+out of necessity 出于必要
+;
+***** necessitate (10483)
+******_:
+vt.使成为必需，需要；迫使
+;
+***** degrade (8605)
+******_:
+vt.使...丢脸；使...降级；降解；贬低
+de- 向下 grade 级别
+;
+***** degradation (7910)
+******_:
+n.降格；降级；退化；堕落
+;
+***** upgrade (6016)
+******_:
+vt.提升；使升级；改良品种
+up- 向上 grade 级别
+;
+***** gradual (6893)
+******_:
+adj.渐进的；逐步的
+-grad- 走 -u- 连接 -al 形容词后缀
+;
+***** gradually (2986)
+******_:
+adv.渐渐地；逐步
+;
+***** congress (639)
+******_:
+n.国会；会议；代表大会；社交
+con- 共同、一起 -gress- 走
+convention n.大会 -vent- 走
+conference n.大会
+;
+***** congressional (2330)
+******_:
+adj.国会的；会议的；议会
+;
+***** congressman (5457)
+******_:
+n.国会议员；众议院议员
+;
+***** ancestor (4178)
+******_:
+n.始祖，祖先；被继承人
+-anc- 以前 -ces- 走 -or 人
+;
+***** ancestral (9154)
+******_:
+adj.祖先的；祖传的
+;
+***** ancestry (11086)
+******_:
+n.祖先；血统
+;
+***** concede (4232)
+******_:
+vt.让步；退让；让与；（勉强）承认
+con- 共同、一起 -ced- 走 -e 动词
+;
+***** concession (5059)
+******_:
+n.让步；特许（权）；承认；退位
+make a ~ 做出让步
+;
+***** abscess (19996)
+******_:
+n.脓肿；脓疮
+abs- (=away) 远离 -cess- 走
+;
+***** accede (18767)
+******_:
+vi.同意；加入；就任、就职
+ac- axx(=to) 向 -cede- 走
+;
+***** accession (17037)
+******_ n.增加；就职；到达
+***** antecede
+******_ vt.在...之前；先行；胜过；居前
+***** antecedent (17181)
+******_ n.先行词；前事；先例；祖先
+***** incessant (15157)
+******_:
+adj.不断的；不停的；连续的
+in- (=not)否定 -cess- (=cease)停止 -ant 形容词
+;
+***** intercede (19900)
+******_:
+vi.调解，调停；求情
+inter- 在...之间 -cede- 走
+;
+***** secede (18480)
+******_:
+vi.退出；脱离
+se- (=apart)分开、分离 -ced- 走
+;
+***** secession (15134)
+******_ n.脱离；分离
+***** digress
+******_:
+vi.离题、岔道
+di- (=dis)分开 + gress 走
+;
+***** regress (17690)
+******_:
+vi.逆行，倒退；复归
+re- 返回 -gress- 走
+反义词：progress 前进
+;
+***** ingress
+******_:
+n.进入；入口；准许进入；入境
+反义词：egress 出口
+;
+***** transgression (12869)
+******_:
+n.越界；违反（道德准则）
+trans- 穿 -gress- 走 -ion 名词
+transgress v.越界
+;
+
+
+**** -anc- 以前、古老；高
+***** ancestor (4178)
+******_:
+n.始祖，祖先；被继承人
+-anc- 以前 -ces- 走 -or 人
+;
+
+
+
+
 ** 单词
 *** etymology
 **** n.词源学
-
-
+*** incentive
+**** n.刺激物；激励物
+** 句型
 @endmindmap
