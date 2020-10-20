@@ -13,10 +13,13 @@ permi<b>t</b> -> permi<b>s</b>sion
 admi<b>t</b> -> admi<b>s</b>sion
 ea<b>t</b> -> -e<b>s</b>-/-e<b>d</b>- -> obe<b>s</b>e/e<b>d</b>ible
 ;
-**** 词根 + 连接(-u-/-ul-/-o-/-ol-) + 后缀，方便发音无含义
+**** 词根 + 连接(-u-/-ul-/-o-/-ol-) + 后缀，连接用于方便发音无含义
 ***** grad<b>u</b>ate / stim<b>ul</b>ate
 **** 开头a + 两个辅音字母(x) = axx (abb-/acc-/add-/aff-/agg-) 最后一个x代表词根开始
-*** 前缀(50+-)
+**** h / b 常常不发音，可能会被省略 (-ible -> -ile) tomb climb numb
+
+
+*** 前缀
 ****[#lightblue]:sub-
 sup-
 suc-
@@ -33,6 +36,8 @@ sus-;
 ***** (=forward) (动态含义)向前
 **** pre-
 ***** (静态) 前面、提前
+**** ab-
+***** 相反
 **** ac-
 ***** (=to) 去
 ****:a-
@@ -53,7 +58,7 @@ cor-
 co-;
 ***** (=with/together) 共同、一起、全部
 ***** (intensive) 加强语气
-**** abc-
+**** abs-
 ***** (=away) 走开、远离
 **** inter-
 ***** 在...之间
@@ -64,6 +69,14 @@ dis-;
 ***** 分开
 **** trans-
 ***** 转、穿、传
+****:in-
+im-
+il-
+ir-
+i-;
+***** (=not) 相反、否定
+***** (=in) 进入
+***** (=en) 使
 
 
 
@@ -79,6 +92,7 @@ dis-;
 ***** n.
 **** -ing
 ***** n.
+***** adj. eg. intervening
 ****:-ate
 -ite
 -ute;
@@ -102,14 +116,33 @@ dis-;
 -ancy
 -ency;
 ***** n. 无含义
+***** v. (极少情况) finance n./v.金融
 ****:-ity
 -lity
 -ility;
 ***** n.
 **** -ion
 ***** n.
+***** v. (极少情况) mention
 **** -ate
 ***** v. ??
+**** -ly
+***** adj. = n. + ly
+***** adv. = adj. + ly
+****[#lightblue]:-able
+-ible
+-ile;
+***** adj.可以...的
+***** adj.容易...的
+***** n. (极少情况) 表物  eg. vary -> variables
+**** -ue
+***** n. eg. revenue
+**** -ment
+***** n.
+***** v. (极少情况) comment
+**** -que
+***** n.
+***** adj.
 
 
 
@@ -438,12 +471,139 @@ transgress v.越界
 ;
 
 
-**** -anc- 以前、古老；高
+****:-van-、-ven-、-vent-
+(=come/go) 来、走来;
+*****[#lightblue] advent (8282)
+******_:
+n.来临、出现
+ad- (=to) -vent- 来临、出现
+with the advent of sth. 随着xxx的出现
+;
+***** convene (7956)
+******_:
+v.集合、着急、聚集
+con- 共同、一起 -ven- (=come)来
+;
+***** convention (2494)
+******_ n.大会；习俗、惯例
+***** conventional (2576)
+******_:
+adj.传统的、符合习俗的
+conventional values：传统价值观
+conventional lanes：常规车道
+;
+***** conventionally (16023)
+******_ adv.照惯例、照常地
+***** unconventional (10196)
+******_ adj.非传统的；非传统的；不依惯例的
+***** convenient (5438)
+******_:
+adj.附近的；方便的
+con- 加强语气 -ven- 走 -ent 形容词
+;
+***** conveinence (4945)
+******_ n.便利；便利的事物
+***** conveniently (11879)
+******_ adv.便利地；合宜地
+***** inconvenience (11019)
+******:
+n.麻烦；不便
+in- 相反 convenience 便利
+;
+***** inconvenient (13872)
+****** adj.不方便的；打扰的
+***** prevent (1087)
+******_:
+v.防止、预防、组织
+pre- 提前 -vent- 来
+prevent them from being marginalized
+;
+***** preventable (16996)
+****** adj.可预防的；可阻止的
+***** preventative (19828)
+****** adj.预防性的 (=preventive)
+***** prevention (3996)
+****** n.预防；阻止；妨碍
+***** intervene (5157)
+******_:
+v.干涉；干预
+inter- (=between)之间 -ven- 来 -e 动词后缀
+;
+***** intervention (1940)
+******_:
+n.干涉、干预
+policy intervention 政策干预
+;
+***** intervening (13024)
+******_:
+adj.介于中间的；发生于期间的
+the intervening time/area/object
+;
+***** interfere (4473)
+******_:
+v.干涉、干预；介入 (=intervene)
+interfere in sth. 干涉、干预某事
+interfere with sth. 和某事发生冲突、对抗
+;
+***** interference (6500)
+******_:
+n.干涉、介入
+interference with natural ecosystems
+;
+***** revenue (1691)
+******_:
+n.收入 (=income)
+re- 回 -ven- 来 -ue 名词
+tax revenues
+abandon readership revenue
+income n.收入
+income inequality
+upper-income population
+;
+***** event (526)
+******_:
+n.事件，大事；结果；项目
+e- 向外 -vent- 来
+;
+***** eventual (7419)
+******_ adj.最后的，结果的；可能的
+***** eventually (1110)
+******_ adv.最后，终于
+***** advance (2316)
+******_:
+n./v.前进、提前
+ad- (=to) -vanc- 来 -(an)c- 前 -e 动词
+;
+***** advanced (2824)
+******_:
+adj.高级的、先进的
+advanced medical technology
+;
+***** advancement (6733)
+******_:
+n.前进，进步；提升
+;
+***** advancing (9483)
+******_:
+adj.前进的；年长的
+She is still very active, in spite of her advancing years/age.
+;
+
+
+**** -anc-、-ant- 以前、古老；高
 ***** ancestor (4178)
 ******_:
 n.始祖，祖先；被继承人
 -anc- 以前 -ces- 走 -or 人
 ;
+***** ancient
+******_ a.古老的、古代的
+***** antique
+******_:
+n.古董；a.古老的
+anti- 以前 -que 名词或形容词
+;
+
 
 
 
@@ -451,7 +611,15 @@ n.始祖，祖先；被继承人
 ** 单词
 *** etymology
 **** n.词源学
+*****_ 词源查询 www.etymonline.com
 *** incentive
 **** n.刺激物；激励物
-** 句型
+** 短语
+*** accused sb. of
+****_:
+控告、起诉、谴责某人
+People accused the ministry of failing to take
+adequate preventive measures.
+人们谴责该政府部门未能采取足够的预防措施
+;
 @endmindmap
