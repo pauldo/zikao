@@ -1,0 +1,128 @@
+@startmindmap
+
+* 语法
+** 基本
+*** 10种词性
+**** n. noun 名词
+**** pron. pronoun 代词
+*****_ we / that / all / who
+**** num. numeral 数词
+**** art. article 冠词
+*****_ a / an / the
+**** v. verb 动词
+**** adv. adverb 副词
+*****_ (修饰动词) next / much / back
+**** adj. adjective 形容词
+*****_ (修饰名词) good / fast / hot
+**** prep. preposition 介词
+*****_ at / in / on
+**** conj. conjunction 连词
+*****_ and / also / but
+**** int. interjection 感叹词
+*****_ what / yum / blah
+
+*** 9种成分
+**** subject 主
+**** predicate 谓
+**** object 宾
+**** attribute 定
+**** adverbial 状
+**** object complement 宾补
+**** subject complement 表
+**** double object 双宾
+*****_ 也就是两个宾语
+**** apposition 同位
+
+*** 8种句型
+**** 简单句
+***** 主 + 谓
+******_:eg. I run
+必须是不及物动词;
+***** 主 + 谓 + 宾
+******_ eg. I love you
+***** 主 + 系 + 表
+******_:eg. I am Iron Man
+系动词 = be动词(am/is/are) + 感官动词(看、听、闻、尝、感觉、变得、似乎、保持、证明);
+***** 主 + 谓 + 双宾
+******_:eg. I give you money
+双宾和宾补区分：谓语后的两个名词都能被动语态主语就是双宾，否则是宾补
+我给「你」「钱」=「你」被我给了「钱」=「钱」被我给了「你」;
+***** 主 + 谓 + 宾 + 宾补
+******_:eg. They ordered hamburger their lunch
+「他们的午餐」被他们点了「汉堡」--- √
+「汉堡」被他们点了「他们的午餐」--- ×;
+**** 复合句
+***** 名词性从句
+***** 定语从句
+***** 状语从句
+
+** 简单句
+*** 陈述句
+**** 肯定
+*****_ I have money
+**** 否定
+*****_ I don't have money
+*** 疑问句
+****:(陈述变)一般疑问
+eg. Do you love me?
+用 Yes / No 回答;
+***** 提前系动词
+******_:
+主系表 变成 系主表
+eg. You <b>are</b> an idiot. -> <b>Are</b> you an idiot?
+    Yes, I am / No, I'm not
+;
+***** 提前助动词
+******_:
+助动词包括 do / have / shall 等
+主谓(宾) 变成 助动词+主+动词原形+其他
+eg. You <b>have</b> got light bulbs. -> <b>Have</b> you got light bulbs?
+    Yes, I have / No, I haven't
+;
+***** 提前情态动词
+******_:
+情态动词包括 can / may / will 等
+主+情态动词+动词原形+其他 变成 情态动词+主+动词原形+其他
+eg. You <b>can</b> play football. -> Can you play football?
+    Yes, I can / No, I can't
+;
+
+****:特殊疑问
+eg. Why do you love me?
+不可以用 Yes, no 回答;
+***** 提问人
+******_ <b>Who</b>'s next?
+***** 提问所属
+******_ <b>Whose</b> car is this?
+***** 提问宾
+******_ <b>Whom</b> did you choose for our them leader?
+***** 提问事情
+******_ <b>What</b> time is it?
+***** 提问时间
+******_ <b>When</b> can we start working?
+***** 提问地点
+******_ <b>Where</b> is the bathroom?
+***** 提问原因
+******_ <b>Why</b> did he do it?
+***** 提问方式数量
+******_ <b>How</b> heavy is it?
+***** 提问多少
+******_ <b>How much</b> longer?
+***** 提问选择
+******_ <b>Whice</b> is your choice?
+
+****:选择疑问
+eg. Do you love my body or my heart?
+    I love your body / I love your heart
+不可以用 Yes / No 回答，用 or 连接;
+
+****:反义疑问
+eg. He is your teacher, isn't he?
+    He isn't your teacher, is he?
+    Yes, he is / No he isn't
+可以用 Yes / No 回答
+前肯定后否定，前否定后肯定;
+*** 感叹句
+*** 祈使句
+
+@endmindmap
